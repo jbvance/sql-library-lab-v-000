@@ -18,3 +18,21 @@ INSERT INTO characters(id, name, motto, species, author_id, series_id) VALUES(5,
 INSERT INTO characters(id, name, motto, species, author_id, series_id) VALUES(6, "Jon Snow", "What do you mean, she's my aunt?", "human", 2,2);
 INSERT INTO characters(id, name, motto, species, author_id, series_id) VALUES(7, "Gregor Clegane", "This helmet is tight!", "freak", 2,2);
 INSERT INTO characters(id, name, motto, species, author_id, series_id) VALUES(8, "Drogon", "Being a dragon rules!", "dragon", 2,2);
+
+INSERT INTO character_books(id, character_id, book_id) VALUES(1, 1, 1);
+INSERT INTO character_books(id, character_id, book_id) VALUES(2, 1, 2);
+INSERT INTO character_books(id, character_id, book_id) VALUES(3, 1, 3);
+INSERT INTO character_books(id, character_id, book_id) VALUES(4, 2, 1);
+INSERT INTO character_books(id, character_id, book_id) VALUES(5, 2, 2);
+INSERT INTO character_books(id, character_id, book_id) VALUES(6, 2, 3);
+INSERT INTO character_books(id, character_id, book_id) VALUES(7, 3, 2);
+INSERT INTO character_books(id, character_id, book_id) VALUES(8, 4, 3);
+
+INSERT INTO character_books(id, character_id, book_id) VALUES(9, 5, 4);
+INSERT INTO character_books(id, character_id, book_id) VALUES(10, 5, 5);
+INSERT INTO character_books(id, character_id, book_id) VALUES(11, 5, 6);
+INSERT INTO character_books(id, character_id, book_id) VALUES(12, 6, 4);
+INSERT INTO character_books(id, character_id, book_id) VALUES(13, 6, 5);
+INSERT INTO character_books(id, character_id, book_id) VALUES(14, 6, 6);
+INSERT INTO character_books(id, character_id, book_id) VALUES(15, 7, 4);
+INSERT INTO character_books(id, character_id, book_id) VALUES(16, 8, 5);
